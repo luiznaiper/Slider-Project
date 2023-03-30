@@ -5,7 +5,7 @@ import { shortList, list, longList } from './data'
 import Carousel from './Carousel'
 
 function App() {
-  const [people, setPeople] = useState(list)
+  const [people, setPeople] = useState(longList)
   const [currentPerson, setCurrentPerson] = useState(0)
 
   const prevSlide = () => {
