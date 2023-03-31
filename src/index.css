@@ -354,3 +354,13 @@ ul {
 .next-slide {
   transform: translateX(100%);
 }
+
+/* ============= SLICK CAROUSEL =============== */
+
+.slick-container {
+  margin: 0 auto;
+  margin-top: 10rem;
+  width: 80%;
+  max-width: 800px;
+  height: 450px;
+}
